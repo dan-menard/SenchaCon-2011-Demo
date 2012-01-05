@@ -1,0 +1,25 @@
+
+div.details-body {
+    padding: 40px 10px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 2.0em;
+    font-weight: bold;
+    color: #003;
+}
+
+p.subdued {
+    color: #666;
+}
+
+dt {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #003;
+}
+
+dd {
+    margin-left: 15px;
+}

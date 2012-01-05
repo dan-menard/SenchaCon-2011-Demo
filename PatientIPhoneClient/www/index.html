@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    
+    <!-- Sencha. -->
+    <script type="text/javascript" chartset="utf-8" src="lib/sencha-touch.js"></script>
+	<link type="text/css" rel="stylesheet" href="lib/sencha-touch.css" />
+    
+    <!-- Our stuff. -->
+    <script type="text/javascript" chartset="utf-8" src="js/prDemo.js"></script>
+    <script type="text/javascript" chartset="utf-8" src="js/controllers/prListController.js"></script>
+    <script type="text/javascript" chartset="utf-8" src="js/controllers/prDetailsController.js"></script>
+    <script type="text/javascript" chartset="utf-8" src="js/services/prService.js"></script>
+    <script type="text/javascript" chartset="utf-8" src="js/views/prDefaultView.js"></script>
+    <script type="text/javascript" chartset="utf-8" src="js/views/prListView.js"></script>
+    <script type="text/javascript" chartset="utf-8" src="js/views/prDetailsView.js"></script>
+    <link type="text/css" rel="stylesheet" href="stylish.css" />
+    
+    <!-- PhoneGap. -->
+	<script type="text/javascript" charset="utf-8" src="lib/phonegap-1.0.0.js"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+        function onBodyLoad()
+        {		
+            document.addEventListener("deviceready", prDemo.soar, false);
+        }
+    </script>
+  </head>
+  <body onload="onBodyLoad()">
+    <!-- Content loads at runtime. -->
+  </body>
+</html>
